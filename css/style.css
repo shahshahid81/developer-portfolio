@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0a0a0b;
+  color: #ffffff;
+  font-family: "Prata", serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2em 1em 3em;
+}
+
+main {
+  margin: 0 1.2em;
+  line-height: 1.4;
+}
+
+main>p:nth-child(1) {
+  font-size: 2em;
+}
+
+main>p:nth-child(2) {
+  color: #757575;
+  font-family: "infer", sans-serif;
+  padding-top: 0.75em;
+}
+
+#clients {
+  padding: 4em 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 1em;
+}
+
+#clients>img {
+  min-width: 40vw;
+  max-width: 40vw;
+  min-height: 3.5vh;
+  max-height: 3.5vh;
+}
+
+.description {
+  color: #757575;
+  font-size: 1em;
+}
+
+#projects {
+  margin-bottom: 6em;
+}
+
+div.project-image {
+  margin: 2em auto 0.5em;
+  min-width: 90vw;
+  max-width: 90vw;
+  min-height: 28vh;
+  max-height: 38vh;
+  object-fit: contain;
+}
+
+div.project-image>img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+p.project-title {
+  font-size: 1.8em;
+  padding: 0 0.6em;
+}
+
+p.project-description {
+  font-family: "infer", sans-serif;
+  line-height: 1.5;
+  color: #949494;
+  font-size: 1em;
+  padding: 0 1.2em;
+}
+
+#summary {
+  background-color: #2e3038;
+  padding: 1em;
+}
+
+.summary-heading {
+  font-size: 2em;
+}
+
+.summary-body-1,
+.summary-body-2 {
+  color: #9c9c9d;
+  font-family: "infer", sans-serif;
+  font-weight: 500;
+  width: 86vw;
+  line-height: 1.5;
+  padding: 1em 0 3em;
+}
+
+.summary-body-1>p:nth-child(2) {
+  padding-top: 2em;
+}
+
+.summary-body-2>p {
+  padding-top: 1.2em;
+}
+
+@media screen and (max-width: 1200px) {
+  #nav-links {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  #hamburger-menu {
+    display: none;
+  }
+}
