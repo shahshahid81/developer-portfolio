@@ -58,9 +58,9 @@ main>p:nth-child(2) {
 div.project-image {
   margin: 2em auto 0.5em;
   min-width: 90vw;
-  max-width: 90vw;
+  max-width: 94vw;
   min-height: 28vh;
-  max-height: 38vh;
+  max-height: 45vh;
   object-fit: contain;
 }
 
@@ -84,7 +84,7 @@ p.project-description {
 
 #summary {
   background-color: #2e3038;
-  padding: 1em;
+  padding: 3em 1em 1em;
 }
 
 .summary-heading {
@@ -95,8 +95,7 @@ p.project-description {
 .summary-body-2 {
   color: #9c9c9d;
   font-family: "infer", sans-serif;
-  font-weight: 500;
-  width: 86vw;
+  width: 90vw;
   line-height: 1.5;
   padding: 1em 0 3em;
 }
@@ -107,6 +106,48 @@ p.project-description {
 
 .summary-body-2>p {
   padding-top: 1.2em;
+}
+
+#contact-us {
+  padding: 3em 1em;
+}
+
+.contact-us-header {
+  font-size: 2em;
+}
+
+.contact-us-body {
+  font-family: "infer", sans-serif;
+  line-height: 1.5;
+  color: #949494;
+  font-size: 1em;
+  padding: 0.3em 0.3em 1em;
+}
+
+.contact-us-button {
+  font-family: "Prata", serif;
+  background-color: #fbe850;
+  min-width: 39vw;
+  max-width: 39vw;
+  min-height: 9vh;
+  max-height: 9vh;
+  border-style: none;
+  font-size: 1em;
+  font-weight: 200;
+}
+
+footer {
+  background-color: #2e3038;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2em;
+}
+
+div.social-links {
+  min-width: 30vw;
+  max-width: 30vw;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 @media screen and (max-width: 1200px) {
