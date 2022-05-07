@@ -161,3 +161,58 @@ div.social-links {
     display: none;
   }
 }
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  main>p:nth-child(1) {
+    font-size: 4em;
+  }
+
+  main>p:nth-child(2) {
+    font-size: 1.5em;
+  }
+
+  #clients>img {
+    min-width: 30vw;
+    max-width: 30vw;
+    min-height: 3.5vh;
+    max-height: 3.5vh;
+  }
+
+  p.project-title {
+    font-size: 2.4em;
+  }
+
+  p.project-description {
+    font-size: 1.4em;
+  }
+
+  .summary-heading {
+    font-size: 3em;
+  }
+
+  .summary-body-1,
+  .summary-body-2 {
+    font-size: 1.3em;
+  }
+
+  .contact-us-header {
+    font-size: 2.7em;
+  }
+
+  .contact-us-body {
+    width: 72vw;
+    font-size: 1.5em;
+  }
+
+  .contact-us-button {
+    min-width: 20vw;
+    max-width: 20vw;
+    min-height: 6vh;
+    max-height: 6vh;
+  }
+
+  div.social-links {
+    min-width: 15vw;
+    max-width: 15vw;
+  }
+}
